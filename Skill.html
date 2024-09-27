@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang=“en”>
+<head>
+  <link rel="icon" href="imge/LOGO-KMUTNB--300x300.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif}
+* {box-sizing: border-box;}
+
+.bg-img {
+  background-image: url("imge/ENG-Zoom-3-scaled.jpg");
+  min-height: 220px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.container {
+  position: absolute;
+  margin: 0px;
+  width: auto;
+  display: flex;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+</style>
+</head>
+<div class="bg-img">
+  <div class="container">
+    <div class="topnav">
+      <a href="Address.html"class="button b-pink">Personal information</a>
+      <a href ="Table.html"class="button b-orange">Educational record</a>
+      <a href="Useser.html"class="button b-pink">API Data</a>
+      <a href="RESUME 6301072610066.html"class="button b-green">Home</a>
+    </div>
+  </div>
+</div>
+<body>
+    <div class="centered"><h1>My Resume</h1></div>
+    <link rel="stylesheet" href="AP2.css">
+<title>Skill</title>
+
+</head>
+<body>
+  <h1>Skill</h1>
+<button class="collapsible">English language</button>
+<div class="content">
+  <p><li>Listen : Fair</li>
+    <li>Speak : Fair</li>
+    <li>Reading: Good</li>
+    <li>Writing : Fair</li>
+  </p>
+</div>
+
+<button class="collapsible">Control and automation software</button>
+<div class="content">
+  <p><li>Gx Works2 for Mitsubishi PLC</li>
+    <li>TIA Portal for Siemens PLC</li>
+    <li>CX-Programmer for Omron PLC</li>
+    <li>SoMachine Basic for Schneider Electric</li>
+  </p>
+</div>
+<button class="collapsible">General software</button>
+<div class="content">
+  <p><li>Microsoft Office</li></p>
+</div>
+<button class="collapsible">Strengths</button>
+<div class="content">
+  <p><li>Posse's positive and can do the attitude.</li>
+    <li>Initiated and created.</li>
+    <li>High responsibility and working hard.</li>
+    <li>Good interpersonal skill and teamwork.</li>
+    <li>There's a reason to talk without judging emotionally.</li></p>
+</div>
+<button class="collapsible">Summary of Qualifications</button>
+<div class="content">
+  <p><li>Have Experience in usage and programming control systems such as PLC used for process and factory automation work. Applicable brands: Siemens, Omron, Schneider Electric, and Mitsubishi.</li>
+    <li>Able to program control system using Ladder logic or function block to create the HMI graphic.</li>
+    <li>Ability to program the microcontroller such as Arduino broad for instrumentation and automation work.</li>
+    <li>Can use the PLC to control any final control element such as a conveyor, Motor, pneumatic system and etc.</li>
+    <li>Have knowledge of process instruments and mechanical sensors.</li>
+    <li>Wish to learn any engineering and maintenance works and other jobs related to engineering.</li>
+  </p>
+</div><br>
+
+<script>
+  var coll = document.getElementsByClassName("collapsible");
+  var i;
+  
+  for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var content = this.nextElementSibling;
+      if (content.style.maxHeight){
+        content.style.maxHeight = null;
+      } else {
+        content.style.maxHeight = content.scrollHeight + "px";
+      } 
+    });
+  }
+  </script><br>
+
+  <div class="footer">
+  <p><h3>References: Wongsakorn Wongsaroj D.Eng, Assistant Professor, King Mongkut's University of Technology
+    North Bangkok, Tel. 084-2356417. Thanakrit Namwong, Position: Control&Instrument
+    Engineer GULF PD TEL: 0982507019</h3></p>
+  </div>  
+</body>
+</html> 
